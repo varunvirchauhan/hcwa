@@ -524,7 +524,21 @@ input[type="submit"].outline:hover {
 	text-align: center;
 	z-index: 60; /* Should be 50+ because of the bxSlider */
 }
-
+.header-bottom {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+		 -o-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+	width: 100%;
+	max-width: 740px;
+	min-width: 300px;
+	text-align: center;
+	z-index: 60; /* Should be 50+ because of the bxSlider */
+}
 /* Background image */
 .bg-img {
 	background-repeat: no-repeat;
